@@ -9,6 +9,6 @@ ReactDOM.render(
   <div>
     <CoordinatesButton onReceiveCoordinates={ mouseCoordinates => console.log(mouseCoordinates) } />
     <DelayedButton onDelayedClick={ event => console.log(event) } delay={1500} />
-  </div>,
+  </div>, 
   document.getElementById('global')
 );
